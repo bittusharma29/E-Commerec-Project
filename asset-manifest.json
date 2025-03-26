@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/E-Commerec-Project/static/css/main.afdec42b.css",
-    "main.js": "/E-Commerec-Project/static/js/main.8fd45597.js",
+    "main.css": "/E-Commerec-Project/static/css/main.dad87fc9.css",
+    "main.js": "/E-Commerec-Project/static/js/main.61b5f177.js",
     "static/media/banner3.png": "/E-Commerec-Project/static/media/banner3.58a46f71c96d3df7a60d.png",
     "static/media/banner2.png": "/E-Commerec-Project/static/media/banner2.61a7ef2ccf6b7ec82304.png",
     "static/media/banner4.png": "/E-Commerec-Project/static/media/banner4.59d67879089d377024ba.png",
     "static/media/banner5.png": "/E-Commerec-Project/static/media/banner5.0d47ba09533b77250ba7.png",
     "static/media/banner1.png": "/E-Commerec-Project/static/media/banner1.f9dbfd4346b0eb372e15.png",
     "index.html": "/E-Commerec-Project/index.html",
-    "main.afdec42b.css.map": "/E-Commerec-Project/static/css/main.afdec42b.css.map",
-    "main.8fd45597.js.map": "/E-Commerec-Project/static/js/main.8fd45597.js.map"
+    "main.dad87fc9.css.map": "/E-Commerec-Project/static/css/main.dad87fc9.css.map",
+    "main.61b5f177.js.map": "/E-Commerec-Project/static/js/main.61b5f177.js.map"
   },
   "entrypoints": [
-    "static/css/main.afdec42b.css",
-    "static/js/main.8fd45597.js"
+    "static/css/main.dad87fc9.css",
+    "static/js/main.61b5f177.js"
   ]
 }
