@@ -38,31 +38,19 @@ const handleMouseLeave = useCallback(() => {
                         <div className={`sidebarNav ${isopenSidebarVal ? 'open' : ''}`}
                         onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                             <ul>
-                        <li><Link to="/"><Button>Men <ArrowForwardIosIcon className='ml-auto'/></Button></Link>
+                        <li><Link to="/"><Button>BREAD <ArrowForwardIosIcon className='ml-auto'/></Button></Link>
                         <div className='submenu'>
-                        <Link to="/"><Button>Clothing</Button></Link>
-                            <Link to="/"><Button>Footwear</Button></Link>
-                            <Link to="/"><Button>Watches</Button></Link>
-                            <Link to="/"><Button>Accessories</Button></Link>
                             </div></li>
-                        <li><Link to="/"><Button>Women  <ArrowForwardIosIcon className='ml-auto'/></Button></Link>
+                        <li><Link to="/"><Button>BREAKFAST  <ArrowForwardIosIcon className='ml-auto'/></Button></Link>
                         <div className='submenu'>
-                        <Link to="/"><Button>Clothing</Button></Link>
-                            <Link to="/"><Button>Footwear</Button></Link>
-                            <Link to="/"><Button>Watches</Button></Link>
-                            <Link to="/"><Button>Accessories</Button></Link>
                             </div></li>
-                        <li><Link to="/"><Button>Watches</Button></Link></li>                   
-                        <li><Link to="/"><Button>kids  <ArrowForwardIosIcon className='ml-auto'/></Button></Link>
+                        <li><Link to="/"><Button>CANDY</Button></Link></li>                   
+                        <li><Link to="/"><Button>CHEESE<ArrowForwardIosIcon className='ml-auto'/></Button></Link>
                         <div className='submenu'>
-                        <Link to="/"><Button>Clothing</Button></Link>
-                            <Link to="/"><Button>Footwear</Button></Link>
-                            <Link to="/"><Button>Watches</Button></Link>
-                            <Link to="/"><Button>Accessories</Button></Link>
                             </div>
                         </li>
-                        <li><Link to="/"><Button>gift</Button></Link></li>                
-                        <li><Link to="/"><Button>Brands</Button></Link></li>
+                        <li><Link to="/"><Button>DAIRY</Button></Link></li>                
+                        <li><Link to="/"><Button>HOME</Button></Link></li>
                         </ul>
                         
                     </div>
@@ -76,7 +64,7 @@ const handleMouseLeave = useCallback(() => {
                         <div className="submenu shadow">
                             
                         </div></li>
-                        <li className='list-inline-item'><Link to ='/'> <Button><MdFreeBreakfast />Breakfast</Button></Link>
+                        <li className='list-inline-item'><Link to ='/'> <Button><MdFreeBreakfast />Cereals</Button></Link>
                         <div className="submenu shadow">
                         </div></li>
                         <li className='list-inline-item'><Link to ='/'><Button><LuCandy/>Candy</Button></Link>
