@@ -166,7 +166,7 @@ header .part3 .circle svg { /* profile picture shape*/
   height: auto;
   position: absolute;
   top: 100%;
-  left: 0;
+  left: 20%;
   background: #fff;
   padding: 15px 0px;
   border: 1px solid black;
@@ -235,7 +235,7 @@ header .part3 .circle svg { /* profile picture shape*/
     -o-transition: all 0.3s;
     
 }
-nav .allCatTab{ background: #2bbef9; color: #fff; padding: 10px 30px !important; border-radius: 20px;  }
+nav .allCatTab{ background: #2bbef9; color: #fff; padding: 10px 30px !important; border-radius: 20px; margin-left: 100px; }
 nav .allCatTab button{ color: #fff; }
 nav .allCatTab:hover{background: aliceblue;}
 nav .allCatTab .text{font-weight: 500; color: #fff;}
@@ -279,9 +279,9 @@ nav .navPart2 ul li a svg  {font-size: 20px;}
   height: auto;
 }
 div .logoWrapper img{
-  width:100%;
+  width: 60%;
   margin: 0px;
-  margin-left: 50px;
+  margin-left: 100px;
 
 }
  ul.list-inline li {

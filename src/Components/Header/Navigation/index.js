@@ -3,12 +3,12 @@ import { MdOutlineMenu } from "react-icons/md";
 import { IoIosArrowDown } from "react-icons/io";
 import { Link } from 'react-router-dom';
 import HomeIcon from '@mui/icons-material/Home';
-import { FaBlog } from "react-icons/fa";
-import CheckroomIcon from '@mui/icons-material/Checkroom';
-import HeadphonesIcon from '@mui/icons-material/Headphones';
-import BakeryDiningIcon from '@mui/icons-material/BakeryDining';
-import SupportAgentIcon from '@mui/icons-material/SupportAgent';
-import SpaIcon from '@mui/icons-material/Spa';
+import { PiCheeseBold } from "react-icons/pi";
+import { RiDrinksFill } from "react-icons/ri";
+import { GiSlicedBread } from "react-icons/gi";
+import { MdFreeBreakfast } from "react-icons/md";
+import { GiMilkCarton } from "react-icons/gi";
+import { LuCandy } from "react-icons/lu";
 import { useState } from 'react';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 const Navigation = () => {
@@ -69,38 +69,38 @@ const Navigation = () => {
                     <div className="col-sm-6 navPart2 d-flex align-items-center">{/*6*/}
                     <ul className='list list-inline ml-auto'>
                         <li className='list-inline-item'><Link to ='/'><Button><HomeIcon /> Home</Button></Link></li>
-                        <li className='list-inline-item'><Link to ='/'><Button><CheckroomIcon />Men</Button></Link>
+                        <li className='list-inline-item'><Link to ='/'><Button><RiDrinksFill />Beverage</Button></Link>
                         <div className="submenu shadow">
                             <Link to="/"><Button>Clothing</Button></Link>
                             <Link to="/"><Button>Footwear</Button></Link>
                             <Link to="/"><Button>Watches</Button></Link>
                         </div>
                         </li>
-                        <li className='list-inline-item'><Link to ='/'> <Button><HeadphonesIcon />Women</Button></Link>
+                        <li className='list-inline-item'><Link to ='/'> <Button><GiSlicedBread />Bread</Button></Link>
                         <div className="submenu shadow">
                             <Link to="/"><Button>Clothing</Button></Link>
                             <Link to="/"><Button>Footwear</Button></Link>
                             <Link to="/"><Button>Watches</Button></Link>
                         </div></li>
-                        <li className='list-inline-item'><Link to ='/'> <Button><BakeryDiningIcon />Watches</Button></Link>
+                        <li className='list-inline-item'><Link to ='/'> <Button><MdFreeBreakfast />Breakfast</Button></Link>
                         <div className="submenu shadow">
                             <Link to="/"><Button>Clothing</Button></Link>
                             <Link to="/"><Button>Footwear</Button></Link>
                             <Link to="/"><Button>Watches</Button></Link>
                         </div></li>
-                        <li className='list-inline-item'><Link to ='/'><Button><SpaIcon/> kids</Button></Link>
+                        <li className='list-inline-item'><Link to ='/'><Button><LuCandy/>Candy</Button></Link>
                         <div className="submenu shadow">
                             <Link to="/"><Button>Clothing</Button></Link>
                             <Link to="/"><Button>Footwear</Button></Link>
                             <Link to="/"><Button>Watches</Button></Link>
                         </div></li>
-                        <li className='list-inline-item'><Link to ='/'><Button><FaBlog />gift</Button></Link>
+                        <li className='list-inline-item'><Link to ='/'><Button><PiCheeseBold />Cheese and Butter</Button></Link>
                         <div className="submenu shadow">
                             <Link to="/"><Button>Clothing</Button></Link>
                             <Link to="/"><Button>Footwear</Button></Link>
                             <Link to="/"><Button>Watches</Button></Link>
                         </div></li>
-                        <li className='list-inline-item'><Link to ='/'><Button><SupportAgentIcon />Brands</Button></Link>
+                        <li className='list-inline-item'><Link to ='/'><Button><GiMilkCarton />Dairy</Button></Link>
                         <div className="submenu shadow">
                             <Link to="/"><Button>Clothing</Button></Link>
                             <Link to="/"><Button>Footwear</Button></Link>
