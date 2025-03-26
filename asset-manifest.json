@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/E-Commerec-Project/static/css/main.96a6718d.css",
-    "main.js": "/E-Commerec-Project/static/js/main.5101a980.js",
+    "main.js": "/E-Commerec-Project/static/js/main.53c62768.js",
     "static/media/banner3.png": "/E-Commerec-Project/static/media/banner3.58a46f71c96d3df7a60d.png",
     "static/media/banner2.png": "/E-Commerec-Project/static/media/banner2.61a7ef2ccf6b7ec82304.png",
     "static/media/banner4.png": "/E-Commerec-Project/static/media/banner4.59d67879089d377024ba.png",
@@ -9,10 +9,10 @@
     "static/media/banner1.png": "/E-Commerec-Project/static/media/banner1.f9dbfd4346b0eb372e15.png",
     "index.html": "/E-Commerec-Project/index.html",
     "main.96a6718d.css.map": "/E-Commerec-Project/static/css/main.96a6718d.css.map",
-    "main.5101a980.js.map": "/E-Commerec-Project/static/js/main.5101a980.js.map"
+    "main.53c62768.js.map": "/E-Commerec-Project/static/js/main.53c62768.js.map"
   },
   "entrypoints": [
     "static/css/main.96a6718d.css",
-    "static/js/main.5101a980.js"
+    "static/js/main.53c62768.js"
   ]
 }
