@@ -15,25 +15,25 @@ return(
       <div className="homeBannerSection">
              <Slider {...settings}>
                 <div className="item">
-                  <img src="https://sslimages.shoppersstop.com/sys-master/root/h7a/h30/33182085316638/SS24-web_3u0--ej9.jpg" alt="banner" className="w-100"/>
+                  <img src="https://static.vecteezy.com/system/resources/previews/038/046/770/non_2x/horizontal-sale-banner-template-for-vegetarian-or-organic-product-vector.jpg" alt="banner" className="w-100"/>
                 </div>
                 <div className="item">
-                  <img src="https://sslimages.shoppersstop.com/sys-master/root/h95/hf9/33279582535710/kraus-%26-Latin-Quarters-web600_398--o9u.jpg"  alt="banner" className="w-100"/>
+                  <img src="https://img.freepik.com/premium-vector/realistic-fresh-spicy-snacks-beer-with-crackers-cheese-condiments-header_1284-56674.jpg?w=1380"  alt="banner" className="w-100"/>
                 </div>
                 <div className="item">
-                  <img src="https://sslimages.shoppersstop.com/sys-master/root/h0a/haa/33279581913118/casio-fossil-web600_8--ek.jpg"  alt="banner" className="w-100"/>
+                  <img src="https://img.freepik.com/free-psd/happy-hour-discount-template_23-2151349611.jpg?t=st=1742973364~exp=1742976964~hmac=cfefee4fae5e1768b534174b7ecc46c7baa250f23b582c898938704819c37291&w=1380"  alt="banner" className="w-100"/>
                 </div>
                 <div className="item">
-                  <img src="https://sslimages.shoppersstop.com/sys-master/root/hfb/hff/33279582371870/burberry-YSl-web600.jpg"  alt="banner" className="w-100"/>
+                  <img src="https://img.freepik.com/premium-photo/white-bread-ears-corn-are-aliens-selective-focus_74760-21444.jpg?w=1380"  alt="banner" className="w-100"/>
                 </div>
                 <div className="item">
-                  <img src="https://sslimages.shoppersstop.com/sys-master/root/hd0/h37/33279592103966/BIBA-%26-W-web600_39--alo.jpg"   alt="banner" className="w-100"/>
+                  <img src="https://img.freepik.com/premium-photo/crispy-potato-snack-chips-bowl-dark-textured-background-perfect-sharing-enjoying-alone-delicious-treat-any-occasion_1138521-19743.jpg?w=1380"   alt="banner" className="w-100"/>
                 </div>
                 <div className="item">
-                  <img src="https://sslimages.shoppersstop.com/sys-master/root/h47/h85/33279588368414/AE-%26-TH-web600_ue--j93.jpg"  alt="banner" className="w-100"/>
+                  <img src="https://img.freepik.com/free-vector/antibacterial-hand-soap-promo_52683-66971.jpg?t=st=1742973550~exp=1742977150~hmac=7098d6c7421aa720b3d88d62a1a075b392e74a86bafdc0bf932912b323ba9ea4&w=1380"  alt="banner" className="w-100"/>
                 </div>
                 <div className="item">
-                  <img src="https://sslimages.shoppersstop.com/sys-master/root/h6d/hf2/33279582765086/stop-life-web600_y--gy.jpg"  alt="banner" className="w-100"/>
+                  <img src="https://img.freepik.com/premium-vector/realistic-cleaning-products-ad_767391-744.jpg?w=1380"  alt="banner" className="w-100"/>
                 </div>
              </Slider>
     </div>

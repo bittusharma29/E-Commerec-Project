@@ -4,22 +4,24 @@ import { IoIosArrowDown } from "react-icons/io";
 import { Link } from 'react-router-dom';
 import HomeIcon from '@mui/icons-material/Home';
 import { PiCheeseBold } from "react-icons/pi";
-import { RiDrinksFill } from "react-icons/ri";
 import { GiSlicedBread } from "react-icons/gi";
 import { MdFreeBreakfast } from "react-icons/md";
 import { GiMilkCarton } from "react-icons/gi";
 import { LuCandy } from "react-icons/lu";
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
+
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 const Navigation = () => {
     const [isopenSidebarVal, setisopenSidebarVal] = useState(false);
-    const handleMouseEnter = () => {
-        console.log("handledMouseEnter called");
-        setisopenSidebarVal(true);
-    };
-    const handleMouseLeave = () => {
-        setisopenSidebarVal(false);
-    }
+const handleMouseEnter = useCallback(() => {
+    console.log("handledMouseEnter called");
+    setisopenSidebarVal(true);
+}, []);
+
+const handleMouseLeave = useCallback(() => {
+    setisopenSidebarVal(false);
+}, []);
+
     return (
         <>
         <nav>
@@ -69,42 +71,22 @@ const Navigation = () => {
                     <div className="col-sm-6 navPart2 d-flex align-items-center">{/*6*/}
                     <ul className='list list-inline ml-auto'>
                         <li className='list-inline-item'><Link to ='/'><Button><HomeIcon /> Home</Button></Link></li>
-                        <li className='list-inline-item'><Link to ='/'><Button><RiDrinksFill />Beverage</Button></Link>
-                        <div className="submenu shadow">
-                            <Link to="/"><Button>Clothing</Button></Link>
-                            <Link to="/"><Button>Footwear</Button></Link>
-                            <Link to="/"><Button>Watches</Button></Link>
-                        </div>
-                        </li>
+                        
                         <li className='list-inline-item'><Link to ='/'> <Button><GiSlicedBread />Bread</Button></Link>
                         <div className="submenu shadow">
-                            <Link to="/"><Button>Clothing</Button></Link>
-                            <Link to="/"><Button>Footwear</Button></Link>
-                            <Link to="/"><Button>Watches</Button></Link>
+                            
                         </div></li>
                         <li className='list-inline-item'><Link to ='/'> <Button><MdFreeBreakfast />Breakfast</Button></Link>
                         <div className="submenu shadow">
-                            <Link to="/"><Button>Clothing</Button></Link>
-                            <Link to="/"><Button>Footwear</Button></Link>
-                            <Link to="/"><Button>Watches</Button></Link>
                         </div></li>
                         <li className='list-inline-item'><Link to ='/'><Button><LuCandy/>Candy</Button></Link>
                         <div className="submenu shadow">
-                            <Link to="/"><Button>Clothing</Button></Link>
-                            <Link to="/"><Button>Footwear</Button></Link>
-                            <Link to="/"><Button>Watches</Button></Link>
                         </div></li>
-                        <li className='list-inline-item'><Link to ='/'><Button><PiCheeseBold />Cheese and Butter</Button></Link>
+                        <li className='list-inline-item'><Link to ='/'><Button><PiCheeseBold />Cheese</Button></Link>
                         <div className="submenu shadow">
-                            <Link to="/"><Button>Clothing</Button></Link>
-                            <Link to="/"><Button>Footwear</Button></Link>
-                            <Link to="/"><Button>Watches</Button></Link>
                         </div></li>
                         <li className='list-inline-item'><Link to ='/'><Button><GiMilkCarton />Dairy</Button></Link>
                         <div className="submenu shadow">
-                            <Link to="/"><Button>Clothing</Button></Link>
-                            <Link to="/"><Button>Footwear</Button></Link>
-                            <Link to="/"><Button>Watches</Button></Link>
                         </div></li>
                     </ul>
 
